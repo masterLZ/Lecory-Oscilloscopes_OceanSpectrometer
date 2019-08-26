@@ -1,0 +1,12 @@
+# Lecory-Oscilloscopes_OceanSpectrometer
+力科示波器wavePro,wave_xs,海洋光学光谱仪
+
+307实验室里面增加了示波器Lecory 44MXs-B的采集
+
+Xs示波器采集由Lecory的activeX控件activedso实现
+
+通过labview调用控件的调用节点读取数据
+
+另外HR4000光谱仪的读取程序使用现场采集然后通过
+
+DataSocket传输的方式，终端只负责数据的读取
